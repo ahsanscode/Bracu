@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+<div id="quote-box-container">
+    <h1>Task 1</h1>
+    <div id="quote-box">!</div>
+    <div class="button-group">
+        <button onclick="changeQuoteBoxStyle('red', 'Arial', '20px')">Red</button>
+        <button onclick="changeQuoteBoxStyle('blue', 'Courier New', '22px')">Blue</button>
+        <button onclick="changeQuoteBoxStyle('green', 'Georgia', '24px')">Green</button>
+        <button onclick="changeQuoteBoxStyle('purple', 'Verdana', '26px')">Purple</button>
+    </div>
+    <div class="converter-container">
+        <input type="number" id="weightInput" placeholder="Enter value">
+        <select id="unitSelect">
+            <option value="kg-to-lb">Kilograms to Pounds</option>
+            <option value="lb-to-kg">Pounds to Kilograms</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <div class="result">
+            Result: <span id="resultSpan"></span>
+        </div>
+    </div>
+</div>
+
+
+<script src="task1.js"></script>
+</body>
+</html>
+
+
+

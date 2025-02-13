@@ -1,0 +1,128 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    background-image: url('pexels-pixasquare-1123982.jpg'); /* Replace with your image file name or URL */
+    background-size: cover; /* Make the image cover the entire screen */
+    background-repeat: no-repeat; /* Prevent tiling of the image */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+    background-position: center; /* Center the image */
+    color: white; /* Set text color for better readability */
+}
+
+/* Header styling */
+h1 {
+    background-color: #4b5320;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.6); /* White background with 60% transparency */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    color: black; /* Make text readable on transparent form */
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgba(75, 83, 32, 0.8); /* Slightly transparent green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Table styling */
+table {
+    width:70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8); /* White with 80% transparency */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    color: black; /* Make text color black */
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #4b5320;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.6); /* White background with 60% transparency */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    width: 100%;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    flex: 1;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: none;
+}
+
+form button:hover {
+    background-color: #3e8e41;
+}
+
